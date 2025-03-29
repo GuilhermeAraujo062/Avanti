@@ -3,21 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Avanti</title>
 </head>
 <body>
+    <div class="info-top">
+        <p>Ganhe <span style="background-color: var(--purple); padding: 1px 5px;">R$10,00</span> de desconto no seu primeiro pedido.</p>
+        <p>Utilize o cupom <span style="text-transform: uppercase; font-weight: 400;">Desconto10</span></p>
+    </div>
     <header>
-        <div>
-            <p>Ganhe R$10,00 de desconto no seu primeiro pedido. Utilize o cupom <span>Desconto10</span></p>
+        <div class="conteiner-img">
+            <p><img src="images/menu.svg" alt="menu" class="icon"></p>
+        
+            <p><img src="images/attachment.png" alt="Logo"></p>
+
+            <p><img src="images/carrinho.svg" alt="Carrinho" class="icon"></p>
         </div>
         <div>
-            <img src="images/menu.png" alt="Menu">
-            <img src="images/attachment.png" alt="Logo">
-            <img src="images/cart.png" alt="Carrinho">
-        </div>
-        <div>
-            <input type="text" placeholder="Digite aqui o que você procura">
+            <input type="text" placeholder="Digite aqui o que você procura" class="pesquisa">
+            <i class="fas fa-search"></i>
         </div>
     </header>
+
+    <main>
+        <section>
+            <img src="images/oferta.jfif" alt="Cadeira com Roupas">
+            <div>
+                <h1>Super Sale</h1>
+                <p>Selected itens up to</p>
+                <p>50%OFF</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

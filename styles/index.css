@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --gray: #E7E7EA;
+    --blue: #005CFF;
+    --purple: #6220C1;
+    --font-nunito: "Nunito", sans-serif;
+}
+
+/* Header */
+
+.info-top {
+    background-color: var(--blue);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+}
+
+.conteiner-img {
+    display: flex;
+    width: 90vw;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 60px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    width: 90vw;
+    height: 40px;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 10px;
+}
+
