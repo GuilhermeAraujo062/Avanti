@@ -15,6 +15,10 @@
     --font-nunito: "Nunito", sans-serif;
 }
 
+.body {
+    width: 100vw;
+}
+
 /* Header */
 
 .info-top {
@@ -23,7 +27,7 @@
     color: white;
     font-weight: 600;
     padding: 5px;
-    width: 100vw;
+    width: 97.5vw;
 }
 
 header {
@@ -36,13 +40,17 @@ header {
 
 .conteiner-img {
     display: flex;
-    width: 90vw;
+    width: 100vw;
+    justify-content: space-around;
     flex-direction: row;
-    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
 }
 
 .icon {
-    width: 60px;
+    width: 40px;
     cursor: pointer;
 }
 
@@ -54,3 +62,17 @@ header {
     padding: 10px;
 }
 
+/* Main */
+
+/* section oferta */
+
+.oferta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--gray);
+}
+
+.oferta img {
+    width: 50vw;
+}
