@@ -15,7 +15,8 @@
     --font-nunito: "Nunito", sans-serif;
 }
 
-.body {
+.body, html {
+    overflow-x: hidden;
     width: 100vw;
 }
 
@@ -70,9 +71,26 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     background-color: var(--gray);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .oferta img {
-    width: 50vw;
+    margin-left: -100px;
+    width: 60vw;
+    display: block;
+}
+
+.oferta h1 {
+    font-size: 3em;
+    font-family: var(--font-nunito);
+    font-weight: 400;
+}
+
+.oferta p {
+    font-weight: 600;
+    line-height: 2;
+    color: var(--blue);
 }
