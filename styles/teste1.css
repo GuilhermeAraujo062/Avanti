@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font-nunito);
+}
+
+:root {
+    --gray: #E7E7EA;
+    --blue: #005CFF;
+    --purple: #6220C1;
+    --font-nunito: "Nunito", sans-serif;
+}
+
+.body, html {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+/* Header */
+
+.info-top {
+    background-color: var(--blue);
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    padding: 2px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding: 40px;
+}
+
+.conteiner-img {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo {
+    width: 200px;
+}
+
+.icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+.pesquisa {
+    width: 90vw;
+    height: 40px;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Main */
+
+/* section oferta */
+
+.oferta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--gray);
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.oferta img {
+    width: 60vw;
+    display: block;
+    margin-left: -100px;
+}
+
+.oferta h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.oferta p {
+    font-weight: 600;
+    line-height: 2;
+    color: var(--blue);
+}
+
+/* Section Lançamentos */
+
+.lancamentos-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.lancamentos-title h2 {
+    font-weight: 800;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.badge-novo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #003366;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.preco-antigo {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.desconto {
+    background-color: #5EC0BE;
+    color: white;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.btn-comprar {
+    background-color: #007bff !important;
+    color: white !important; 
+    font-weight: bold;
+}
+
+.btn-comprar:hover {
+    background-color: #004fa3 !important;
+}

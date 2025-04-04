@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: var(--font-nunito);
+}
+
+:root {
+    --gray: #E7E7EA;
+    --blue: #005CFF;
+    --purple: #6220C1;
+    --font-nunito: "Nunito", sans-serif;
+}
+
+body, html {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+/* Header */
+
+/*  parte de cima do header  */
+.info-top {
+    text-align: center;
+    background-color: var(--blue);
+    color: white;
+}
+
+.info-top p {
+    font-size: 0.6rem;
+    padding: 5px;
+}
+
+.nav-top {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    width: 80px; /* Reduzi um pouco o tamanho */
+}
+
+/* Search Box */
+.search-box {
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 0.8rem;
+}
+
+/* Conta (Ícone e nome do usuário) */
+.conta {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    gap: 5px;
+}
+
+.conta p {
+    line-height: 1.2;
+}
+
+.conta svg {
+    width: 20px;
+    height: 20px;
+}
