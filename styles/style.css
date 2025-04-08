@@ -143,6 +143,27 @@ header {
     padding: 80px 20px 10px;
   }
 
+  .lancamentos-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    padding: 50px 30px;
+  }
+
+  .lancamentos-bottom h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .img-caneca {
+    background-color: var(--gray);
+  }
+
+  .img-caneca img {
+    width: 600px;
+  }
+
   /* Carousel */
 
   .carousel-wrapper {
@@ -270,4 +291,46 @@ header {
 
   .dot.active {
     background-color: #333;
+  }
+
+  /* terceira seção, sobre */
+
+  .sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--gray);
+    padding: 50px;
+  }
+
+  .sobre-texto {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: justify;
+  }
+
+  .sobre-texto h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .sobre-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .sobre-info p {
+    padding-bottom: 20px;
+  }
+
+  .icon-geo {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    color: white;
   }
