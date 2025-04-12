@@ -58,9 +58,11 @@ header {
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin: 0 auto;
 }
 
 /* Search Box */
@@ -333,4 +335,22 @@ header {
     border-radius: 50%;
     background-color: var(--blue);
     color: white;
+  }
+
+  .sobre-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px auto;
+  }
+
+  /* quarta seção */
+
+  .container {
+    width: 100%;
+    height: 600px;
+    background-color: #005CFF;
+    margin: 0 auto;
   }
